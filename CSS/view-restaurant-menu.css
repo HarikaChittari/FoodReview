@@ -1,0 +1,244 @@
+/* Global Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.top-bar {
+    width: 100%;
+    background-color: #071b2c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.left-text a,
+.no-underline {
+    text-decoration: none;
+    color: white;
+}
+
+.left-text a {
+    font-size: 25px;
+    font-weight: bold;
+	margin-left: 40px;
+}
+
+.no-underline {
+    font-size: 16px;
+}
+
+.right-button a {
+    background-color: #008095;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Center Logo Styling */
+.center-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 20px;
+}
+
+.center-logo img {
+    width: 175px;
+}
+
+.center-logo h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Restaurant Info Styling */
+.restaurant-image {
+    max-width: 150px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.restaurant-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 5px;
+}
+
+.restaurant-location {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Food List Container */
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.add-food-button, .update-food-button, .back-button {
+    background-color: #008095;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+	text-decoration: none;
+	width: auto;
+}
+
+.back-button {
+    background-color: #999999;
+}
+
+.food-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+/* Food Item Tile Styling */
+.food-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+	width: 100%;
+}
+
+.food-item {
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.food-item {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+    border: 2px solid black;
+}
+
+.food-item:hover {
+    transform: translateY(-5px);
+}
+
+.food-image {
+    width: 90px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.food-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.food-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.food-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #018198;
+}
+
+/* Description and Reviews */
+.food-description,
+.average-review {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.food-description {
+    color: #666;
+}
+
+.average-review {
+    color: #018198;
+    font-weight: bold;
+}
+
+/* User Review Styling */
+.user-review {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.review-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.review-feedback {
+    font-size: 14px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.review-rating {
+    font-size: 14px;
+    font-weight: bold;
+    color: #018198;
+    margin-top: 5px;
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    background-color: #071b2c;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+

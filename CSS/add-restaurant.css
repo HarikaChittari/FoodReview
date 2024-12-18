@@ -1,0 +1,213 @@
+/* Global Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.top-bar {
+    width: 100%;
+    background-color: #071b2c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.left-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.right-button a {
+    background-color: #008095;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Create Food Item Styling */
+.wrapper {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.center-logo {
+    width: 175px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.new-item-container {
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cancel-button, .create-button {
+    background-color: #008095;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+	text-decoration: none;
+}
+
+.cancel-button {
+    background-color: #999999;
+}
+
+.input-box {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	background-color: white;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.input-group label {
+    font-weight: bold;
+    width: 150px;
+    text-align: left;
+}
+
+.input-group input[type="text"],
+.input-group textarea {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.image-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.image-upload label,
+.image-upload .upload-link {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.upload-link {
+    color: #008095;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #008095;
+    border-radius: 5px;
+    cursor: pointer;
+	margin-top: 10px;
+}
+
+.uploaded-image {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.operating-hours-container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        .day-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .day-row input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .day-row label {
+            width: 100px;
+        }
+        .time-input {
+            margin-right: 5px;
+            padding: 5px;
+            width: 90px;
+        }
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    background-color: #071b2c;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}

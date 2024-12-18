@@ -1,0 +1,160 @@
+/* Global Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.top-bar {
+    width: 100%;
+    background-color: #071b2c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.left-text a,
+.no-underline {
+    text-decoration: none;
+    color: white;
+}
+
+.left-text a {
+    font-size: 25px;
+    font-weight: bold;
+	margin-left: 40px;
+}
+
+.no-underline {
+    font-size: 16px;
+}
+
+.right-button a {
+    background-color: #008095;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Center Logo Styling */
+.center-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 20px;
+}
+
+.center-logo img {
+    width: 175px;
+}
+
+.center-logo h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Create User Container */
+.add-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+	width: 100%;
+    max-width: 700px;
+}
+
+.cancel-button, .create-user-button {
+    background-color: #008095;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+	text-decoration: none;
+	width: auto;
+}
+
+.cancel-button {
+    background-color: #999999;
+}
+
+/* Create User Tile Styling */
+.add-user {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+	box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+	gap: 20px;
+    align-items: center;
+    border: 2px solid black;
+	cursor: default;
+}
+
+.user-input-group {
+    width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.user-input-group label {
+    font-weight: bold;
+    width: 150px;
+    text-align: left;
+}
+
+.user-input-group input[type="text"],
+.user-input-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Footer Styling */
+.footer {
+    width: 100%;
+    background-color: #071b2c;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
